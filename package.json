@@ -1,0 +1,21 @@
+{
+  "name": "server-card-plus",
+  "version": "0.3.0",
+  "description": "System-Monitor-Übersicht mit Auto-Detection für Proxmox VE (CPU, RAM, Disk, Status).",
+  "scripts": {
+    "dev": "vite",
+    "build": "npx tsc && npx vite build",
+    "preview": "vite preview",
+    "test": "node test/detect.test.cjs"
+  },
+  "dependencies": {
+    "lit": "^3.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "8.3.1"
+  },
+  "author": "Björn Bourner (hermes-agent)",
+  "repository": "https://github.com/xBourner/server-card-plus",
+  "license": "MIT"
+}
