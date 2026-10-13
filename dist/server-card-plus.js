@@ -2110,7 +2110,7 @@ var ht = [
 X([K({ attribute: !1 })], $.prototype, "hass", void 0), X([K({ attribute: !1 })], $.prototype, "config", void 0), X([Fe()], $.prototype, "_armed", void 0), $ = X([Ae("server-card-plus")], $), window.customCards = window.customCards || [], window.customCards.push({
 	type: "server-card-plus",
 	name: "Server Card Plus",
-	description: "System-Monitor-Übersicht mit Auto-Detection für Proxmox VE (CPU, RAM, Disk, Status)."
+	description: "Proxmox VE system monitor with auto-detection (CPU, RAM, disk, status, controls)."
 });
 //#endregion
 export { $ as ServerCardPlus };
