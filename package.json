@@ -1,12 +1,11 @@
 {
   "name": "server-card-plus",
   "version": "0.3.0",
-  "description": "System-Monitor-Übersicht mit Auto-Detection für Proxmox VE (CPU, RAM, Disk, Status).",
+  "description": "Proxmox VE system monitor card for Home Assistant with auto-detection (CPU, RAM, disk, status, controls).",
   "scripts": {
     "dev": "vite",
     "build": "npx tsc && npx vite build",
-    "preview": "vite preview",
-    "test": "node test/detect.test.cjs"
+    "preview": "vite preview"
   },
   "dependencies": {
     "lit": "^3.1.0"
