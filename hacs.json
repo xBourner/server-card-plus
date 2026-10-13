@@ -1,0 +1,7 @@
+{
+  "name": "server-card-plus",
+  "content_in_root": false,
+  "render_readme": true,
+  "filename": "server-card-plus.js",
+  "homeassistant": "2026.3.0"
+}
