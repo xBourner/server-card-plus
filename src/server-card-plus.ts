@@ -1007,5 +1007,5 @@ window.customCards = window.customCards || [];
 window.customCards.push({
   type: 'server-card-plus',
   name: 'Server Card Plus',
-  description: 'System-Monitor-Übersicht mit Auto-Detection für Proxmox VE (CPU, RAM, Disk, Status).',
+  description: 'Proxmox VE system monitor with auto-detection (CPU, RAM, disk, status, controls).',
 });
