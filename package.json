@@ -2,17 +2,16 @@
   "name": "server-card-plus",
   "version": "0.3.0",
   "description": "Proxmox VE system monitor card for Home Assistant with auto-detection (CPU, RAM, disk, status, controls).",
+  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npx tsc && npx vite build",
-    "preview": "vite preview"
+    "build": "tsc && vite build"
   },
   "dependencies": {
-    "lit": "^3.1.0"
+    "lit": "^3.3.3"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "vite": "8.3.1"
+    "typescript": "~7.0.2",
+    "vite": "^8.3.4"
   },
   "author": "Björn Bourner (hermes-agent)",
   "repository": "https://github.com/xBourner/server-card-plus",
