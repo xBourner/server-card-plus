@@ -994,18 +994,4 @@ declare global {
   interface HTMLElementTagNameMap {
     'server-card-plus': ServerCardPlus;
   }
-  interface Window {
-    customCards?: Array<{
-      type: string;
-      name: string;
-      description?: string;
-    }>;
-  }
 }
-
-window.customCards = window.customCards || [];
-window.customCards.push({
-  type: 'server-card-plus',
-  name: 'Server Card Plus',
-  description: 'Proxmox VE system monitor with auto-detection (CPU, RAM, disk, status, controls).',
-});
